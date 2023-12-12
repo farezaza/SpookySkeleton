@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 919eabe29e0a59643a8e2cf3c21f2029
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Skeleton_Shield1(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_Global
+      parentName: Skeleton_Shield1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Body
+      parentName: SkeletonRigFinish:CTRL_Global
+      position: {x: -0, y: 0.967506, z: -0.010561532}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_Gravity01
+      parentName: SkeletonRigFinish:Body
+      position: {x: -0, y: -0.16534257, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Lower_Waist
+      parentName: SkeletonRigFinish:CTRL_Gravity01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.041119304, y: 0.0000000024629574, z: 0.00000005984718, w: 0.99915427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_LW
+      parentName: SkeletonRigFinish:Lower_Waist
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Upper_Waist
+      parentName: SkeletonRigFinish:CTRL_LW
+      position: {x: -4.3922435e-11, y: 0.10842359, z: 8.8817837e-17}
+      rotation: {x: -0.07616295, y: -0.0000000036538, z: -0.00000060643055, w: 0.9970954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_UW
+      parentName: SkeletonRigFinish:Upper_Waist
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Lower_Chest
+      parentName: SkeletonRigFinish:CTRL_UW
+      position: {x: -9.8710436e-11, y: 0.19254287, z: 2.6645352e-17}
+      rotation: {x: -0.0017965264, y: 4.2959525e-11, z: -0.000000023912511, w: 0.9999984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_LW
+      parentName: SkeletonRigFinish:Lower_Chest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000055995763, y: -0.0000000010819335, z: 0.6052944, w: 0.79600173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Upper_Chest
+      parentName: SkeletonRigFinish:CTRL_LW
+      position: {x: -3.8890006e-11, y: 0.1341392, z: 8.8817837e-17}
+      rotation: {x: -0.14969485, y: -0.048662487, z: -0.09757239, w: 0.98270196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_UC
+      parentName: SkeletonRigFinish:Upper_Chest
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Clavicle_Left
+      parentName: SkeletonRigFinish:CTRL_UC
+      position: {x: -0.052197106, y: 0.0942455, z: 0.041813407}
+      rotation: {x: -0.18325698, y: 0.15163817, z: -0.7217748, w: 0.64997214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:CTRL_CL
+      parentName: SkeletonRigFinish:Clavicle_Left
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Left_Hand
+      parentName: SkeletonRigFinish:CTRL_CL
+      position: {x: -0.54825145, y: -0.43130308, z: 0.064620726}
+      rotation: {x: 0.39026806, y: -0.25719115, z: 0.66046035, w: 0.58765274}
+      scale: {x: 1, y: 1, z: -1}
+    - name: SkeletonRigFinish:CTRL_LH
+      parentName: SkeletonRigFinish:Left_Hand
+      position: {x: 0.09458986, y: 0.22007217, z: -0.41054502}
+      rotation: {x: 0.556505, y: 0.16441944, z: 0.5334247, w: 0.61540765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SWShield
+      parentName: SkeletonRigFinish:CTRL_LH
+      position: {x: 0.0697263, y: 0.08630095, z: 0.13853854}
+      rotation: {x: -0.7140247, y: -0.0767083, z: -0.037518986, w: 0.6948934}
+      scale: {x: 1, y: 1, z: -1}
+    - name: SkeletonRigFinish:SkeletonWarrior
+      parentName: Skeleton_Shield1(Clone)
+      position: {x: -0, y: 0.91106397, z: 0.020485446}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:Weapon
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0, y: -0.015131788, z: -0.91106397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWSkull
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0, y: 0.2017383, z: -0.91106397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWChest
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0, y: 0.2017383, z: -0.91106397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWArmL
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0.002303131, y: 0.2017383, z: -0.9156165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWArmR
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0, y: 0.2017383, z: -0.91106397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWLegL
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0, y: 0.2017383, z: -0.91106397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWLegR
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0, y: 0.2017383, z: -0.91106397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRigFinish:SWPelvis
+      parentName: SkeletonRigFinish:SkeletonWarrior
+      position: {x: -0.002303131, y: 0.2017383, z: -0.9156165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
